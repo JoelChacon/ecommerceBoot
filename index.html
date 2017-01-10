@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EB</title>
+  	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    
+    <!-- navbar  -->
+    <nav class="navbar-inverse navbar-fixed-top navClass">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href='#'><strong>eCommerce</strong></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#idOfTarget" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="idOfTarget">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another Action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end of navbar -->
+    <div>
+        
+    </div>
+    <!-- carousel -->
+    <div id="idOfCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/carouselthumb.jpg"  class="image1" alt="">
+                <div class="carousel-caption">
+                <h2>item on sale1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/carouselthumb.jpg" class="image1" alt="">
+                <div class="carousel-caption">
+                <h2>item on sale2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/carouselthumb.jpg" class="image1" alt="">
+                <div class="carousel-caption">
+                <h2>item on sale3</h2>
+                </div>
+            </div>  
+            <div class="item">
+                <img src="assets/carouselthumb.jpg" class="image1" alt="">
+                <div class="carousel-caption">
+                <h2>item on sale4</h2>
+                </div>
+            </div>
+        </div>
+        <!-- End of Slides -->
+        <!-- Indicators --> 
+        <ol class="carousel-indicators">
+            <li data-target="#idOfCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#idOfCarousel" data-slide-to="1"></li>
+            <li data-target="#idOfCarousel" data-slide-to="2"></li>
+            <li data-target="#idOfCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- End of Indicators -->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#idOfCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#idOfCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!-- End of Controls -->
+    </div>
+    <!--  end of carousel -->
+    <!-- Marketing -->
+    <div class="clearfix spacing"></div>
+    <div class="container">
+        <div class="row marketing">   
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img src="assets/images.jpg" alt="..." class="img-circle">
+                <h2>Title of item</h2>
+                <p>Description of item</p>
+                <a href="#" class="btn btn-info">Details...</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img src="assets/images.jpg" alt="..." class="img-circle">
+                <h2>Title of item</h2>
+                <p>Description of item</p>
+                <a href="#" class="btn btn-info">Details...</a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <img src="assets/images.jpg" alt="..." class="img-circle">
+                <h2>Title of item</h2>
+                <p>Description of item</p>
+                <a href="#" class="btn btn-info">Details...</a>
+            </div>
+        </div>    
+    </div>
+    <!-- End of marketing -->
+    <!-- Product thumbnails -->
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="assets/images.jpg" alt="...">
+                <div class="caption text-center">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p>
+                        <a href="#" class="btn btn-primary" role="button">Button</a> 
+                        <a href="#" class="btn btn-default" role="button">Button</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="assets/images.jpg" alt="...">
+                <div class="caption text-center">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p>
+                        <a href="#" class="btn btn-primary" role="button">Button</a> 
+                        <a href="#" class="btn btn-default" role="button">Button</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="assets/images.jpg" alt="...">
+                <div class="caption text-center">
+                    <h3>Thumbnail label</h3>
+                    <p>...</p>
+                    <p>
+                        <a href="#" class="btn btn-primary" role="button">Button</a> 
+                        <a href="#" class="btn btn-default" role="button">Button</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End thumbnails -->
+    <script src="/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

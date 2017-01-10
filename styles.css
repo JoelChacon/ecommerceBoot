@@ -1,0 +1,32 @@
+.navbar {
+	/*border: 2px solid blue;*/
+}
+
+.container-fluid {
+	/*border: 2px solid blue;	*/
+}
+
+.navClass {
+	border-radius: 0 !important;
+}
+
+.image1 {
+	width: 100vw;
+}
+
+.marketing {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.devide {
+	margin: 80px 0;
+}
+
+hr {
+	border: solid 1px #eee;
+}
+
+.spacing {
+	margin-bottom: 20px;
+}
