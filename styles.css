@@ -30,3 +30,14 @@ hr {
 .spacing {
 	margin-bottom: 20px;
 }
+
+.thumbnail img {
+	width: 100%;
+}
+
+/*.divd {
+	position: relative;
+	right: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}*/
