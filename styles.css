@@ -1,3 +1,7 @@
+/** {
+	border: solid black 2px;
+}*/
+
 .navbar {
 	/*border: 2px solid blue;*/
 }
@@ -7,7 +11,7 @@
 }
 
 .navClass {
-	border-radius: 0 !important;
+	border-radius: 0 !important ;
 }
 
 .image1 {
@@ -34,7 +38,9 @@ hr {
 .thumbnail img {
 	width: 100%;
 }
-
+.containMargin {
+	margin-top: 70px
+}
 /*.divd {
 	position: relative;
 	right: 50%;
